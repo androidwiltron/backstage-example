@@ -1,0 +1,21 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: androidwiltron
+  description: YOLO
+  labels:
+    androidwiltron.dev/custom: cool_label
+  annotations:
+    androidwiltron.dev/service-discovery: androidwiltron
+  tags:
+    - scala
+  links:
+    - url: https://androidwiltron.dev
+      title: Customer root
+      icon: dashboard
+      type: admin-dashboard
+spec:
+  type: website
+  lifecycle: production
+  owner: capsule
+  system: public-websites
